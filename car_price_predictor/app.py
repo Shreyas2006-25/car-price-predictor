@@ -86,7 +86,7 @@ st.markdown(f"""<div class="hero"><h1>🚗 Car<span>Worth</span></h1>
 <p>Machine-learning price estimates for second-hand cars, trained on {meta['rows']:,} real CarDekho listings.</p></div>""",
             unsafe_allow_html=True)
 
-tab_pred, tab_market, tab_model = st.tabs(["💰 Price estimate", "📊 Market explorer", "🧠 Model insights"])
+tab_pred, tab_market, tab_model = st.tabs([" Price estimate", " Market explorer", " Model insights"])
 
 # =====================================================================
 with tab_pred:
